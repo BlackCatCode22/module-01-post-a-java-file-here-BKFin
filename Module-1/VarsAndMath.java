@@ -14,5 +14,15 @@ public class VarsAndMath {
 
     // Outputting the sum to the screen
     System.out.println("\n\n The sum of " + a + " and " + b + " is " + sum);
+
+    // Now doing multiplication and outputting the product, which will be a double
+    double product = a * b;
+
+    System.out.println("The product of " + a + " and " + b + " is: " + product);
+
+    // And now changing a variable's value, specifically changing a from 10 to 20, then recalculating the sum
+    a = 20;
+    sum = a + b;
+    System.out.println("The new sum of " + a + " and " + b + " is: " + sum);
     }
 }
